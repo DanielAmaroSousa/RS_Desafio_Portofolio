@@ -1,0 +1,157 @@
+body {
+    background-color: #22212C;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+#perfil, #links, #tecnologias, #experiencias, #education {
+    padding: 10px;
+    width: 250px;
+    background-color: #302F3D;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+#perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nome {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+#job {
+    font-size: x-small;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+  
+
+#perfil img {
+    border: solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-color: #1bb430;
+  }
+
+#links {
+    padding: 10px;
+    font-size: x-small;
+  }
+
+#links dl ::content{
+    height: 20px;
+    vertical-align: middle;
+}  
+
+#links svg {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+#tecnologias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tecnologias table {
+    border-spacing: 10px;
+
+}
+
+#tecnologias td {
+    padding: 10px;
+    background-color: #CB92B1;
+    color: #22212C;
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    font-size: xx-small;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+
+#experiencias li, #education li{
+  font-size: smaller;
+  font-weight: bold;
+}
+
+#experiencias span, #education span {
+  font-size: x-small;
+  font-weight: lighter;
+}
+
+main {
+  flex-grow: 1;
+}
+
+#myprojects, #recentposts, .projectdetail, .posts {
+  padding: 20px;
+  background-color: #302F3D;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px black;
+  display: flex;
+  justify-content: space-between;
+  min-width: 250px;
+}
+
+.viewall{
+  font-size: smaller;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.projectdetail {
+  flex-direction: column;
+  width: 50%;
+}
+
+.projectdetail img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #837E9F;
+}
+
+.project_title {
+  font-size: smaller;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.project_text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: x-small;
+  font-weight: lighter;
+}
+
+.project_footer, .posts{
+  display: flex;
+  justify-content: space-between;
+  font-size: x-small;
+  font-weight: lighter;
+  vertical-align: middle;
+}
+
